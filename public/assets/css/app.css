@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #CFCFCF;
+}
+
+.cmp_box {
+    width: 80%; /* Ajustável para telas menores */
+    max-width: 850px; /* Máximo para telas maiores */
+    height: 400px; /* Altura fixa */
+    /*background-color: lightblue;*/
+    border-radius: 10px;
+}
+
+.cmd_txt {
+    font-weight: bolder;
+    margin: 1px 0px ;
+    color: #000;
+}
+
+.cmp_txt_inicial {
+    font-size: 1em;
+    padding: 0px;
+}
+
+.cmd_txt_regra {
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.cmp_btn {
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    min-width: 175px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+}
+
+.cmp_btn_tutorial {
+    background: rgb(0,114,171);
+    background: linear-gradient(180deg, rgba(0,114,171,1) 0%, rgba(0,70,104,1) 60%);
+}
+
+.cmp_btn_jogar {
+    background: rgb(126,221,121);
+    background: linear-gradient(180deg, rgba(126,221,121,1) 0%, rgba(74,131,71,1) 60%);
+}
+
+.cmp_btn_ativar {
+    background: rgb(50,203,33);
+    background: linear-gradient(180deg, rgba(50,203,33,1) 0%, rgba(26,109,25,1) 60%);
+}
+
+.cmp_btn_estressar {
+    background: rgb(212,186,43);
+    background: linear-gradient(180deg, rgba(212,186,43,1) 0%, rgba(116,99,14,1) 60%);
+}
+
+.cmp_btn_mudar {
+    background: rgb(20,173,173);
+    background: linear-gradient(180deg, rgba(20,173,173,1) 0%, rgba(11,96,96,1) 60%);
+}
+
+.cmp_btn_colapsar {
+    background: rgb(199,67,38);
+    background: linear-gradient(180deg, rgba(199,67,38,1) 0%, rgba(110,34,19,1) 60%);
+}
+
+.cmp_btn_disabled {
+    background: rgb(86,86,86);
+    background: linear-gradient(180deg, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 60%);
+}
+
+.cmp_btn:hover {
+    color: #000;
+}
+
+.cmp_btn_disabled:hover {
+    color: #fff;
+}
+
+
+.cmp_red {
+    color: rgb(109, 0, 0);
+}
+
+.cmp_bg-right {
+    background-color: #CFCFCF;
+}
+
+.cmp_bg-left {
+    background-color: #AAAAAA;
+}
+
+.cmp_estressar {
+    color: rgb(116,99,14);
+}
+
+.cmp_bolder {
+    font-weight: bolder;
+}
+
+.cmp_colapso {
+    color: rgb(110, 34, 19);
+}
+
+.cmp_txt_large {
+    font-size: xx-large;   
+}
+
+.cmp_txt_big {
+    font-size: x-large;
+}
+
+
+.cmd_btn_lateral {
+    border-radius: 0px 10px 10px 0px; 
+}
+
+.cmp_link {
+    cursor: pointer;
+}
+
+.cmp_white {
+    color: #fff;
+}
+
+.cmp_bg-plano {
+    background-color: #444;
+}

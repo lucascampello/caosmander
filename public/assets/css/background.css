@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+    /* Configuração do Background */
+    background-image: url("../images/background.jpg"); /* Troque pela sua imagem */
+    background-size: 150%; /* Para garantir um bom movimento */
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+    /* Animação */
+    animation: moveBackground 40s infinite linear alternate;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: top left;
+    }
+    50% {
+        background-position: center center;
+    }
+    100% {
+        background-position: bottom right;
+    }
+}
