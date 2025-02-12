@@ -132,3 +132,11 @@ body {
 .cmp_bg-plano {
     background-color: #444;
 }
+
+.cmp_texto_barra {
+    position:relative;
+    display: block;
+    top: -50%;
+    left: 8%;
+    width: 90%;
+}

@@ -22,15 +22,26 @@
                         <img src="{{asset('assets/images/status_planos/eletrochoque.png')}}" alt="Crescimento Desenfreado" class="img-fluid">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <img src="" alt="" class="img-fluid">
+                <div class="row bg-light border-bottom border-dark border-3">
+                    <div class="col-12">
+                        <p class="fs-5 m-0 p-0"> <spam class="fw-bold mx-2">Sugerido por:</spam> Gabriel Lumertz</p>  
                     </div>
-                    <div class="col-9">
-                        texto
+                </div>                
+                <div class="row mt-3">
+                    <div class="col-12 mx-1">
+                        <img src="{{asset('assets/images/interface/barra_ok.png')}}" class="img-fluid">
+                        <spam class="fs-5 fw-bold cmp_texto_barra">
+                            Causa 1 ponto de dano em cada criatura de seus oponentes.
+                        </spam>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-12 mx-1">
+                        <img src="{{asset('assets/images/interface/barra_erro.png')}}" class="img-fluid">
+                        <spam class="fs-5 fw-bold cmp_texto_barra">
+                            Causa 1 ponto de dano em cada criatura que você controla. Causa 1 ponto de dano em cada criatura que você controla. Causa 1 ponto de dano em cada criatura que você controla.
+                        </spam>
+                    </div>
                 </div>
             </div>
             <div class="col-3 cmp_bg-right py-4 px-0 border-start border-dark border-3">
