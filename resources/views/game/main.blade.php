@@ -15,11 +15,11 @@
                         </div>
                     </div>
                     <div class="col-7 text-center mt-1">
-                        <img src="{{asset('assets/images/planos/eletrochoque.png')}}" alt="Crescimento Desenfreado" class="img-fluid">
-                        <p class="mt-2 cmp_white cmp_txt_big">Eletrochoque</p>
+                        <img src="{{$planoAtual['imagem']}}" alt="{{$planoAtual['nome']}}" class="img-fluid">
+                        <p class="mt-2 cmp_white cmp_txt_big">{{$planoAtual['nome']}}</p>
                     </div>
                     <div class="col-3">
-                        <img src="{{asset('assets/images/status_planos/eletrochoque.png')}}" alt="Crescimento Desenfreado" class="img-fluid">
+                        <img src="{{$planoAtual['status']}}" alt="{{$planoAtual['nome']}}" class="img-fluid">
                     </div>
                 </div>
                 <div class="row bg-light border-bottom border-dark border-3">
@@ -31,7 +31,7 @@
                     <div class="col-12 mx-1">
                         <img src="{{asset('assets/images/interface/barra_ok.png')}}" class="img-fluid">
                         <spam class="fs-5 fw-bold cmp_texto_barra">
-                            Causa 1 ponto de dano em cada criatura de seus oponentes.
+                            {{$planoAtual['ATIVAR']}}
                         </spam>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                     <div class="col-12 mx-1">
                         <img src="{{asset('assets/images/interface/barra_erro.png')}}" class="img-fluid">
                         <spam class="fs-5 fw-bold cmp_texto_barra">
-                            Causa 1 ponto de dano em cada criatura que você controla. Causa 1 ponto de dano em cada criatura que você controla. Causa 1 ponto de dano em cada criatura que você controla.
+                            {{$planoAtual['CAOS']}}
                         </spam>
                     </div>
                 </div>
